@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3",
+    "glob": "^7.1.7",
+    "hypixel-api": "^1.2.0",
+    "hypixel-api-reborn": "^8.2.0",
+    "lodash": "^4.17.21",
+    "mineflayer": "^3.7.0",
+    "node-fetch": "^2.6.1",
+    "perspective-api-client": "^3.1.0",
+    "string-similarity": "^4.0.4"
+  }
+}
