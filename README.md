@@ -1,15 +1,11 @@
 # HypixelGuildChat-DiscordBot
 A Discord bot that links your Hypixel guild chat to a specific Discord channel. The code is messy but will be cleaned up later on.
-Not recommended to be used in a production environment because of a bug that does not detect the bot disconnecting (will be fixed later). A simple workaround for this issue is to automatically restart the bot periodically (every 6-12 hours).
+**NOTICE: This Hypixel bot is based on top of a non-conventional client (Mineflayer). By using the software, there is a small chance for the bot to flag Hypixel's Watchdog and get the bot banned. Hypixel chatbots are somewhat in a gray area, use at your own risk. **
 
 # Features
 * Supports two way chat. You can send messages from Discord to Hypixel and vice versa.
-* (Coming soon) Microsoft account support.
-
-# Todo List
-* Add Microsoft account support.
-* Fix auto-reconnect bug.
-* Clean up code.
+* Microsoft account support.
+* Kick and invite guild members.
 
 # Usage
 Install the bot (refer to *Installation*) and run it. You'll get a message in your logging channel that the bot has initialized. Say something in the in-game guild chat and the bot should display it in its logging channel.
@@ -52,6 +48,13 @@ You will need the following:
 5.  Save the text file and start the bot using `npm main.js`.
       Protip for Linux users: Install `screen` and run `screen npm main.js` to start the bot without it automatically shut down when you quit Terminal or close your SSH session.
 6. Invite your bot to your server and you're done!
+
+### Commands
+
+`$` - The bot's prefix
+`$help` - Displays the help message. For normal members, there won't be any commands (as all of them are moderator-only)
+`$gkick` - Kicks the specified guild member. Requires the kick members permission in ingame-guild and requires the command user to have the kick members permission.
+`$ginvite` - Invites the specified user. Requires the invite members permission in ingame-guild and requires the command user to have the kick members permission.
 
 # Contributions
 Pull requests are welcome. For major pull requests, please describe a rough summary of your push and why you would like for us to approve it.
