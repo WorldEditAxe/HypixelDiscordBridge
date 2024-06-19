@@ -3,6 +3,9 @@ A Discord bot that links your Hypixel guild chat to a specific Discord channel. 
 
 **NOTICE:** This Hypixel bot is based on top of a non-conventional client (Mineflayer). By using the software, there is a small chance for the bot to flag Hypixel's Watchdog and get the bot banned. Hypixel chatbots are somewhat in a gray area, use at your own risk.
 
+## DISCONTINUED
+This bot was made roughly 3 years ago (as of 2024) for a now inactive and abandoned Hypixel guild. Additionally, I no longer play on Hypixel myself. As such, I have decided to relicense, publicize, and archive this repository in hopes that others might find this useful. Please do note that a lot has changed since then, and some tweaking might be required to make the old code work today. AFAIK `oldMain.js` is the only functional version of the bot; `main.ts` was an incomplete rewrite that I never ended up finishing. You probably don't even want to touch that spaghetti code anyway :P
+
 # Features
 * Supports two way chat. You can send messages from Discord to Hypixel and vice versa.
 * Microsoft account support.
